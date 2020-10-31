@@ -26,4 +26,11 @@
                 </button>
                 <a class="navbar-brand" href="#">the tech repair geek gang</a>
             </div> <!--navbar-header--> 
+            <div class="collapse navbar-collapse" id="collapse-menu">
+                <ul class="nav navbar-nav text-center pull-right">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
 
