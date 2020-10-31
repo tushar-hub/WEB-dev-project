@@ -1,11 +1,24 @@
-*{
-    padding:0;
-    margin:0;
-    }
-    body{
-        background-image:url(k.jpg);
-        background-size:cover;
-        
-        
-    }
+* {
+    box-sizing: border-box;
+}
+
+body, p, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/*************NAVIGATION STYLES*************/
+
+
+.navbar {
+    border: none;
+    background: rgba(255, 222, 17, 1);
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: auto;
+}
     
