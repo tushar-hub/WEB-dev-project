@@ -21,4 +21,376 @@ body, p, h1, h2, h3 {
     max-width: 1000px;
     margin: auto;
 }
+
+
+
+
+/*************HOME-CONTENTS STYLES*************/
+
+
+.home {
+    width: 100%;
+    background-image: url('../img/main-one.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-contents {
+    padding-top: 180px;
+    padding-bottom: 120px;
+}
+
+.phone-number {
+    font-size: 3.5rem;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: rgba(255, 222, 17, 1);
+}
+
+.quote-link {
+    font-size: 1.6rem;
+    padding: 15px 20px;
+    color: rgba(255, 222, 17, 1);
+    background: rgba(43, 108, 163, 1);
+}
+
+.quote-link:hover {
+    text-decoration: none;
+    color: rgba(43, 108, 163, 1);
+    background: rgba(255, 222, 17, 1);
+}
+
+.title {
+    color: #fff;
+    font-size: 5rem;
+}
+
+.sub-title {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.down-arrow {
+    width: 50px;
+    height: 50px;
+}
+
+.arrow-container {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+
+/*************SERVICES STYLES*************/
+
+
+
+.services {
+    color: #fff;
+    padding-bottom: 100px;
+    background: rgb(9, 60, 245);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-items {
+    width: 150px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.header {
+    padding: 100px 0;
+}
+
+.caption {
+    font-size: 2.5rem;
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+
+.service-link,
+.service-link:hover,
+.service-link:visited,
+.service-link:focus {
+    margin-top: 25px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(255, 222, 17, 1);
+}
+
+
+
+/*************ABOUT US STYLES (WHO WE ARE)*************/
+
+
+
+.about-us {
+    color: #fff;
+    width: 100%;
+    background-image: url('../img/wood_texture.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about {
+    width: 75%;
+    margin: auto;
+    padding-bottom: 90px;
+}
+
+.about-title {
+    padding-top: 90px;
+    padding-bottom: 70px;
+    color: rgb(255, 220, 21); 
+}
+
+.about-para {
+    font-size: 1.7rem;
+    padding: 0 100px;
+}
+
+
+
+/*************HAPPY CUSTOMERS STYLES*************/
+
+
+
+.quote {
+    padding-bottom: 70px;
+}
+
+.quote-title {
+    padding: 70px 0;
+    color: rgba(43, 108, 163, 1);
+}
+
+.customer {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.quotation {
+    padding-top: 30px;
+}
+
+.quote-footer {
+    color: rgba(43, 108, 163, 1);
+}
+
+
+
+/*************CONTACT US STYLES*************/
+
+
+
+.contact {
+    color: #fff;
+    background: rgba(43, 108, 163, 1);
+}
+
+.contact-page-title {
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+
+.contact-details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+}
+
+.contact h3 {
+    padding-bottom: 20px;
+}
+
+.feedback {
+    width: 400px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+input {
+    color: #000;
+    width: 400px;
+    height: 40px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.message {
+    color: #000;
+    width: 400px;
+    height: 150px;
+    max-width: 400px;
+    max-height: 150px;
+    padding: 10px 10px 0px 10px;
+    border: none;
+    resize: none;
+}
+
+.button {
+    color: #000;
+    width: 400px;
+    height: 40px;
+    border: none;
+    background-image: linear-gradient(to right, rgba(255, 222, 17, 1) 50%, forestgreen 50%);
+    background-size: 200%;
+    transition: background-position 0.5s;
+}
+
+.button:hover {
+    color: #fff;
+    background-position: -100%;
+}
+
+#ajax {
+    text-align: center;
+}
+
+.ajax-data {
+    font-size: 2rem;
+}
+
+
+/*************FOOTER STYLES*************/
+
+
+footer {
+    color: #000;
+    height: 60px;
+    line-height: 60px;
+}
+
+
+
+/*************SERVICES PAGE STYLES*************/
+
+
+
+.services-page {
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background: rgba(43, 108, 163, 1); 
+}
+
+.services-title {
+    padding: 70px 0;
+}
+
+.service-footer {
+    color: #000;
+}
+
+.service-caption {
+    font-size: 2.5rem;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.service-grid {
+    padding-top: 40px;
+}
+
+.call {
+    padding: 10px 30px;
+    margin-top: 15px;
+    display: inline-block;
+    color: rgba(43, 108, 163, 1);
+    background: rgba(255, 222, 17, 1);
+    transition: all 0.5s;
+}
+
+.call:hover {
+    color: rgba(255, 222, 17, 1);
+    background: rgba(43, 108, 163, 1); 
+    text-decoration: none;
+}
+
+.para {
+    padding: 0 15px;
+}
+
+
+
+
+
+/*************MEDIA QUIRIES*************/
+
+
+@media screen and ( max-width : 330px ) {
+    .feedback, input, 
+    .message, .button {
+        width: 250px;
+    }
+    
+    #ajax {
+        margin-left: -5px;
+    }
+    
+    .mob-view {
+        padding-bottom: 50px;
+    }
+    
+    .flex-container {
+        display: block;
+    }
+
+    .flex-items {
+        width: 100%;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .caption {
+        padding-bottom: 20px;
+    }
+    
+    .about-para {
+        font-size: 1.7rem;
+        padding: 0;
+    }
+    
+}
+
+@media screen and ( max-width : 415px ) {
+    .feedback, input, 
+    .message, .button {
+        width: 300px;
+    }
+    
+    .caption {
+        padding-bottom: 20px;
+    }
+    
+    .mob-view {
+        padding-bottom: 50px;
+    }
+    
+    .about-para {
+        font-size: 1.7rem;
+        padding: 0 20px;
+    }
+}
     
